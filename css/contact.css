@@ -1,0 +1,57 @@
+.page-name{
+    padding-top: 100px;
+    height: 30vh;
+}
+.page-name h1{
+    color: #f55a2b;
+    text-transform: uppercase;
+    animation: From-Top 2s ease-in;
+}
+/* form */
+
+.form .flex{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form .form-wrapper{
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+}
+.form .form-img{
+    width: 500px;
+    height: 300px;
+}
+.form .form-wrapper > div input{
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    font-size: 15px;
+
+}
+
+.form .form-wrapper > div textarea{
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    font-size: 15px;
+
+}
+.form .form-wrapper > div{
+    border-bottom: 1px solid #f55a2b;
+    width: 100%;
+}
+
+.form .form-wrapper .button{
+    position: relative;
+    border-bottom: none;
+    margin-top: 15px;
+}
+.form .form-wrapper button{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}

@@ -1,0 +1,59 @@
+.page-name{
+    padding-top: 100px;
+    height: 30vh;
+}
+.page-name h1{
+    text-transform: uppercase;
+    animation: From-Top 2s ease-in;
+}
+
+/* best services */
+
+.best-services h2::first-letter{
+    font-size: 50px;
+}
+.best-services h2{
+    font-size: 32px;
+}
+.best-services p::first-letter{
+    font-size: 30px;
+    margin-right: 1px;
+    color: var(--primary-color);
+}
+/* our items */
+
+.our-items .grid{
+    gap: 20px;
+}
+.our-items .web-design{
+    position: relative;
+}
+.round{
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--primary-color);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    background: #fff;
+}
+.info{
+    height: 250px;
+    border: 3px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    z-index: -1;
+    margin-top: -30px;
+    border-radius: 4px;
+}
+
+/* all items */
+.all-items .item-wrapper >div:first-child{
+    padding: 0 15px;
+}
